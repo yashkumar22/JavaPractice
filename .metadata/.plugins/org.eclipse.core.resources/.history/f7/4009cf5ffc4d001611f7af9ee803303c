@@ -1,0 +1,10 @@
+package binarysearchtree;
+
+public interface Tree<D extends Comparable <D>>  {
+
+	public boolean isEmpty();
+	public int cardinality();
+	public boolean member(D elt);
+	
+	public nonEmptyBST <D> add(D elt);
+}
